@@ -1,0 +1,47 @@
+html{
+	height:100%;
+}
+body{
+	width: 100%;
+	height:100%;
+	margin:0;
+	overflow: hidden;
+}
+.wrap{
+	position: relative;
+	overflow: hidden;
+}
+.box{
+	position: absolute;
+	list-style: none;
+	left:0;
+	top:0;
+	padding:0;
+	margin:0;
+}
+.box li{
+	float:left;
+}
+.box li img{
+	display:block;
+	width:100%;
+	height:100%;
+}
+#nav {
+	position: absolute;
+	left: 0;
+	bottom: 3px;
+	width: 100%;
+	line-height: 10px;
+	text-align: center;
+}
+#nav span {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	background: #C00;
+	border-radius: 5px;
+}
+#nav .active {
+	background: #0F0;
+}
